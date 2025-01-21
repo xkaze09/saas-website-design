@@ -17,6 +17,14 @@ export const Header = () => {
           <div className="flex justify-between items-center">
             <Image src={Logo} alt="Logo" height={40} width={40} />
             <MenuIcon className="h-5 w-5 md:hidden"/>
+            <nav className="hidden md:flex space-x-4">
+              <a href="#" className="text-black hover:underline">About</a>
+              <a href="#" className="text-black hover:underline">Features</a>
+              <a href="#" className="text-black hover:underline">Customers</a>
+              <a href="#" className="text-black hover:underline">Updates</a>
+              <a href="#" className="text-black hover:underline">Help</a>
+              <button>Get Started</button>
+            </nav>
           </div>
         </div>
       </div>
