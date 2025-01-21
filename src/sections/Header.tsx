@@ -16,7 +16,7 @@ export const Header = () => {
         <div className="container">
           <div className="flex justify-between items-center">
             <Image src={Logo} alt="Logo" height={40} width={40} />
-            <MenuIcon className="h-5 w-5"/>
+            <MenuIcon className="h-5 w-5 md:hidden"/>
           </div>
         </div>
       </div>
