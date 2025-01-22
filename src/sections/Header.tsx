@@ -17,13 +17,13 @@ export const Header = () => {
           <div className="flex justify-between items-center">
             <Image src={Logo} alt="Logo" height={40} width={40} />
             <MenuIcon className="h-5 w-5 md:hidden"/>
-            <nav className="hidden md:flex space-x-4">
-              <a href="#" className="text-black hover:underline">About</a>
-              <a href="#" className="text-black hover:underline">Features</a>
-              <a href="#" className="text-black hover:underline">Customers</a>
-              <a href="#" className="text-black hover:underline">Updates</a>
-              <a href="#" className="text-black hover:underline">Help</a>
-              <button>Get Started</button>
+            <nav className="hidden md:flex gap-6 text-black/60 items-center">
+              <a href="#">About</a>
+              <a href="#">Features</a>
+              <a href="#">Customers</a>
+              <a href="#">Updates</a>
+              <a href="#">Help</a>
+              <button className='bg-black text-white px-4 py-2 rounded-lg font-medium inline-flex align-items justify-center tracking-tight'>Get Started</button>
             </nav>
           </div>
         </div>
