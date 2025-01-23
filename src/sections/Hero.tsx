@@ -7,8 +7,8 @@ export const Hero = () => {
           <h1 className="text-5xl font-bold tracking-tighter bg-gradient-to-b from-black to-[#001E80] text-transparent bg-clip-text">Pathway to productivity</h1>
           <p className="text-xl text-[#010D3E] tracking-tight mt-6">Celebrate the joy of accomplishment with an app designed to track your progress, motivate your efforts, and celebrate your successes.</p>
           <div className="flex gap-1 items-center mt-[30px]">
-            <button>Get for free</button>
-            <button>Learn more</button>
+            <button className="btn btn-primary">Get for free</button>
+            <button className="btn btn-text">Learn more</button>
           </div>
         </div>
       </div>
