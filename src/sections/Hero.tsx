@@ -4,7 +4,7 @@ import Image from "next/image";
 
 export const Hero = () => {
   return (
-    <section>
+    <section className="pt-8 pb-20">
       <div className="container">
         <div className="">
           <div className="text-sm inline-flex border border-[#222]/10 px-3 py-1 rounded-lg tracking-tight">Version 2.0 is here!</div>
@@ -20,7 +20,7 @@ export const Hero = () => {
             </button>
           </div>
         </div>
-        <div className="">
+        <div className="mt-20">
           <Image src={cogImage} alt="Cog Image" />
         </div>
       </div>
