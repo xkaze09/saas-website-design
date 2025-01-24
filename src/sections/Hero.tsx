@@ -1,3 +1,6 @@
+import ArrowIcon from "@/assets/arrow-right.svg";
+import cogImage from '@assets/cog.png'
+
 export const Hero = () => {
   return (
     <section>
@@ -8,7 +11,12 @@ export const Hero = () => {
           <p className="text-xl text-[#010D3E] tracking-tight mt-6">Celebrate the joy of accomplishment with an app designed to track your progress, motivate your efforts, and celebrate your successes.</p>
           <div className="flex gap-1 items-center mt-[30px]">
             <button className="btn btn-primary">Get for free</button>
-            <button className="btn btn-text">Learn more</button>
+            <button className="btn btn-text gap-1">
+              <span>
+                Learn more
+              </span>
+              <ArrowIcon className="h-5 w-5" />
+            </button>
           </div>
         </div>
       </div>
