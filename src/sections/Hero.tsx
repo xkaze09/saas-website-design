@@ -1,5 +1,6 @@
 import ArrowIcon from "@/assets/arrow-right.svg";
-import cogImage from '@assets/cog.png'
+import cogImage from "@/assets/cog.png"; // Updated path to match the correct assets directory
+import Image from "next/image";
 
 export const Hero = () => {
   return (
@@ -18,6 +19,9 @@ export const Hero = () => {
               <ArrowIcon className="h-5 w-5" />
             </button>
           </div>
+        </div>
+        <div className="">
+          <Image src={cogImage} alt="Cog Image" />
         </div>
       </div>
     </section>
