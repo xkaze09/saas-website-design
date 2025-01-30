@@ -26,7 +26,7 @@ export const Hero = () => {
         <div className="mt-20 md:mt-0 md:h-[648px] md:flex-1 relative">
           <Image src={cogImage} alt="Cog Image" className="md:absolutte md:h-full md:w-auto md:max-w-none md:-left-6"/>
           <Image src={cylinderImage} alt="Cylinder Image" width={220} height={220} className="hidden md:block -top-8 -left-32 md:absolute" />
-          <Image src={noodleImage} alt="Noodle Image" width={200} className="absolute top-[524px] left-[448px]"/>
+          <Image src={noodleImage} alt="Noodle Image" width={200} className="hidden lg:block absolute top-[524px] left-[448px]"/>
         </div>
         </div>
       </div>
