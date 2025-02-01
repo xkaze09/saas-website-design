@@ -68,7 +68,7 @@ export const Pricing = () => {
             <button>{buttonText}</button>
             <ul>
               {features.map(feature => (
-                <li>{feature}</li>
+                <li><span>{feature}</span></li>
               ))}
             </ul>
           </div>
