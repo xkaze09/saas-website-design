@@ -18,8 +18,8 @@ export const ProductShowcase = () => {
       </div>
       <div className="relative">
         <Image src={productImage} alt="Product Image" className="mt-10" />
-        <Image src={pyramidImage} alt="Pyramid Image" height={262} width={262} className="absolute -right-36 -top-32" />
-        <Image src={tubeImage} alt="Tube Image" height={248} className="absolute bottom-24 -left-36" />
+        <Image src={pyramidImage} alt="Pyramid Image" height={262} width={262} className="hidden md:block absolute -right-36 -top-32" />
+        <Image src={tubeImage} alt="Tube Image" height={248} className="hidden md:block absolute bottom-24 -left-36" />
       </div>
     </div>
   </section>;
