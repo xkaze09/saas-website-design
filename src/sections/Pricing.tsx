@@ -1,4 +1,5 @@
 import CheckIcon from '@/assets/check.svg';
+import { twMerge } from "tailwind-merge";
 
 const pricingTiers = [
   {
@@ -61,7 +62,7 @@ export const Pricing = () => {
       </p>
       <div className="">
         {pricingTiers.map(({ title, monthlyPrice, buttonText, popular, inverse, features }) => (
-          <div className="p-10 border border-[#F1F1F1] rounded-3xl shadow-[0_7px-14px_#EAEAEA]">
+          <div className={twMerge("p-10 border border-[#F1F1F1] rounded-3xl shadow-[0_7px-14px_#EAEAEA]", inverse === true && 'border-black bg-black text-white')}>
             <div className="flex justify-between">
               <h3 className="text-lg font-bold text-black/50">{title}</h3>
               {popular === true && (
