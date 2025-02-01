@@ -8,15 +8,17 @@ import Image from 'next/image';
 
 export const LogoTicker = () => {
   return <div>
-    <div className="container">
-      <div className="">
-        <Image src={acmeLogo} alt="Acme Logo" />
-        <Image src={quantumLogo} alt="quantumLogo Logo" />
-        <Image src={echoLogo} alt="echoLogo Logo" />
-        <Image src={celestialLogo} alt="celestialLogo Logo" />
-        <Image src={pulseLogo} alt="pulseLogo Logo" />
-        <Image src={apexLogo} alt="apexLogo Logo" />
+      <div className="container">
+        <div className="flex overflow-hidden [mask-image:linear-gradient(to_right,transparent,black,transparent)]">
+          <div className="flex gap-14 flex-none">
+            <Image src={acmeLogo} alt="Acme Logo" className="logo-ticker-image"/>
+            <Image src={quantumLogo} alt="quantumLogo Logo" className="logo-ticker-image"/>
+            <Image src={echoLogo} alt="echoLogo Logo" className="logo-ticker-image"/>
+            <Image src={celestialLogo} alt="celestialLogo Logo" className="logo-ticker-image"/>
+            <Image src={pulseLogo} alt="pulseLogo Logo" className="logo-ticker-image"/>
+            <Image src={apexLogo} alt="apexLogo Logo" className="logo-ticker-image"/>
+          </div>
+        </div>
       </div>
-    </div>
-  </div>;
+    </div>;
 };
