@@ -11,12 +11,11 @@ export const LogoTicker = () => {
     <div className="container">
       <div className="">
         <Image src={acmeLogo} alt="Acme Logo" />
-        <Image src={acmeLogo} alt="Acme Logo" />
-        <Image src={acmeLogo} alt="Acme Logo" />
-        <Image src={acmeLogo} alt="Acme Logo" />
-        <Image src={acmeLogo} alt="Acme Logo" />
-        <Image src={acmeLogo} alt="Acme Logo" />
-        <Image src={acmeLogo} alt="Acme Logo" />
+        <Image src={quantumLogo} alt="quantumLogo Logo" />
+        <Image src={echoLogo} alt="echoLogo Logo" />
+        <Image src={celestialLogo} alt="celestialLogo Logo" />
+        <Image src={pulseLogo} alt="pulseLogo Logo" />
+        <Image src={apexLogo} alt="apexLogo Logo" />
       </div>
     </div>
   </div>;
