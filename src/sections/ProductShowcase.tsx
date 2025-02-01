@@ -11,7 +11,7 @@ export const ProductShowcase = () => {
             Effortlessly turn your ideas into a fully functional, responsive,
             SaaS website in just minutes.
       </p>
-      <Image src={productImage} alt="Product" className="w-full h-auto" />
+      <Image src={productImage} alt="Product" className="" />
     </div>
   </section>;
 };
