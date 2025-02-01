@@ -1,3 +1,5 @@
+import CheckIcon from '@/assets/check.svg';
+
 const pricingTiers = [
   {
     title: "Free",
@@ -59,16 +61,19 @@ export const Pricing = () => {
       </p>
       <div className="">
         {pricingTiers.map(({ title, monthlyPrice, buttonText, popular, inverse, features }) => (
-          <div key={title}>
-            <h3>{title}</h3>
-            <div className="">
+          <div className="p-10 border border-[#F1F1F1] rounded-3xl shadow-[0_7px-14px_#EAEAEA]">
+            <h3 className="text-lg font-bold text-black/50">{title}</h3>
+            <div className="text-4xl font-bold tracking-tighter leading-none">
               <span>${monthlyPrice}</span>
-              <span>/month</span>
+              <span className="tracking-tight font-bold text-black/50">/month</span>
             </div>
             <button>{buttonText}</button>
             <ul>
               {features.map(feature => (
-                <li><span>{feature}</span></li>
+                <li>
+                  <CheckIcon className="h-6 w-6" />
+                  <span>{feature}</span>
+                </li>
               ))}
             </ul>
           </div>
