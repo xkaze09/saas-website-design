@@ -3,7 +3,7 @@ import Image from 'next/image';
 
 
 export const ProductShowcase = () => {
-  return <section>
+  return <section className="bg-gradient-to-b from-[#FFFFFF] to-[#D2DCFF] py-24">
     <div className="container">
       <div className="">Boost your productivity</div>
       <h2>A more effective way to track progress</h2>
