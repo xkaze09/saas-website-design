@@ -57,6 +57,18 @@ export const Pricing = () => {
       <p className="section-description mt-5">
         Free forever. Upgrade for unlimited tasks, better security, and exclusive features.
       </p>
+      <div className="">
+        {pricingTiers.map(({ title, monthlyPrice, buttonText, popular, inverse, features }) => (
+          <div key={title}>
+            <h3>{title}</h3>
+            <div className="">
+              <span>${monthlyPrice}</span>
+              <span>/month</span>
+            </div>
+            <button>{buttonText}</button>
+          </div>
+        ))}
+      </div>
     </div>
   </section>;
 };
