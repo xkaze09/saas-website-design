@@ -5,7 +5,7 @@ import Image from 'next/image';
 export const ProductShowcase = () => {
   return <section className="bg-gradient-to-b from-[#FFFFFF] to-[#D2DCFF] py-24">
     <div className="container">
-      <div className="">Boost your productivity</div>
+      <div className="tag">Boost your productivity</div>
       <h2>A more effective way to track progress</h2>
       <p>
             Effortlessly turn your ideas into a fully functional, responsive,
