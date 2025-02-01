@@ -1,6 +1,7 @@
 import productImage from '@/assets/product-image.png';
+import pyramidImage from '@/assets/pyramid.png';
+import tubeImage from '@/assets/tube.png';
 import Image from 'next/image';
-
 
 export const ProductShowcase = () => {
   return <section className="bg-gradient-to-b from-[#FFFFFF] to-[#D2DCFF] py-24">
@@ -15,7 +16,10 @@ export const ProductShowcase = () => {
               SaaS website in just minutes.
         </p>
       </div>
-      <Image src={productImage} alt="Product" className="mt-10" />
+      <div className="relative">
+        <Image src={productImage} alt="Product Image" className="mt-10" />
+        <Image src={pyramidImage} alt="Pyramid Image" height={262} width={262} className="absolute -right-36 -top-32" />
+      </div>
     </div>
   </section>;
 };
