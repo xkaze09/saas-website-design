@@ -7,7 +7,7 @@ import apexLogo from '@/assets/logo-apex.png';
 import Image from 'next/image';
 
 export const LogoTicker = () => {
-  return <div>
+  return <div className="py-8 bg-white">
       <div className="container">
         <div className="flex overflow-hidden [mask-image:linear-gradient(to_right,transparent,black,transparent)]">
           <div className="flex gap-14 flex-none">
