@@ -64,7 +64,7 @@ export const Pricing = () => {
           <div className="p-10 border border-[#F1F1F1] rounded-3xl shadow-[0_7px-14px_#EAEAEA]">
             <div className="flex justify-between">
               <h3 className="text-lg font-bold text-black/50">{title}</h3>
-              {popular && (
+              {popular === true && (
                 <div className="inline-flex text-sm px-4 py-1.5 rounded-xl border border-white/20">
                   <span className="bg-[linear-gradient(to_right,#DD7DDf,#E1CD86,#BBCB92,#71C2EF,#3BFFFF,#DD7DDF)] text-gransparent bg-clip-text font-medium">Popular</span>
                 </div>
