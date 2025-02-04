@@ -68,7 +68,9 @@ const testimonials = [
 export const Testimonials = () => {
   return <section>
     <div className="container">
-      <div className="tag">Testimonials</div>
+      <div className="flex justify-center">
+        <div className="tag">Testimonials</div>
+      </div>
       <h2 className="section-title">What our users say</h2>
       <p className="section-description">From intuitive design to powerful features, our app has become an essential tool for users around the world.</p>
     </div>
