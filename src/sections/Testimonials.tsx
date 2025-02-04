@@ -69,7 +69,7 @@ export const Testimonials = () => {
   return <section>
     <div className="container">
       <h2>What our users say</h2>
-      <p className=""></p>
+      <p className="">From intuitive design to powerful features, our app has become an essential tool for users around the world.</p>
     </div>
   </section>;
 };
