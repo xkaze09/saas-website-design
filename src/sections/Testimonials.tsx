@@ -68,7 +68,8 @@ const testimonials = [
 export const Testimonials = () => {
   return <section>
     <div className="container">
-      <h2>Testimonials</h2>
+      <h2>What our users say</h2>
+      <p className=""></p>
     </div>
   </section>;
 };
