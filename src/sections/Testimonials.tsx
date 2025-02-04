@@ -66,7 +66,7 @@ const testimonials = [
 ];
 
 export const Testimonials = () => {
-  return <section>
+  return <section className="bg-white">
     <div className="container">
       <div className="flex justify-center">
         <div className="tag">Testimonials</div>
