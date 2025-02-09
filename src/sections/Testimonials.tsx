@@ -69,7 +69,7 @@ const firstColumn = testimonials.slice(0, 3);
 const secondColumn = testimonials.slice(3, 6);
 const thirdColumn = testimonials.slice(6, 9);
 
-const TestimonialsColumn = (props: unknown) => (
+const TestimonialsColumn = (props: {testimonials:typeof testimonials}) => (
   <div className="flex flex-col gap-6 mt-10 [mask-image:linear-gradient(to_bottom,transparent,black_25%,black_75%,transparent)]">
   {firstColumn.map(({text, imageSrc, name, username}) => (
     <div className="card">
