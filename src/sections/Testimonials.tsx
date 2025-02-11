@@ -103,7 +103,8 @@ export const Testimonials = () => {
       <p className="section-description mt-5">From intuitive design to powerful features, our app has become an essential tool for users around the world.</p>
       <div className="flex justify-center gap-6">
       <TestimonialsColumn testimonials={firstColumn} />
-      <TestimonialsColumn testimonials={secondColumn} />
+      <TestimonialsColumn testimonials={secondColumn} className="hidden md:flex"/>
+      <TestimonialsColumn testimonials={thirdColumn} className="hidden lg:flex"/>
       </div>
     </div>
   </section>;
