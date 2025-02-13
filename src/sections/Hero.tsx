@@ -1,3 +1,4 @@
+"use client";
 import ArrowIcon from "@/assets/arrow-right.svg";
 import cogImage from "@/assets/cog.png";
 import cylinderImage from '@/assets/cylinder.png';
@@ -26,7 +27,7 @@ export const Hero = () => {
           </div>
         </div>
         <div className="mt-20 md:mt-0 md:h-[648px] md:flex-1 relative">
-          <Image src={cogImage} alt="Cog Image" className="md:absolutte md:h-full md:w-auto md:max-w-none md:-left-6 lg:left-0"/>
+          <motion.img src={cogImage.src} alt="Cog Image" className="md:absolutte md:h-full md:w-auto md:max-w-none md:-left-6 lg:left-0"/>
           <Image src={cylinderImage} alt="Cylinder Image" width={220} height={220} className="hidden md:block -top-8 -left-32 md:absolute" />
           <Image src={noodleImage} alt="Noodle Image" width={200} className="hidden lg:block absolute top-[524px] left-[448px] rotate-[30deg]"/>
         </div>
