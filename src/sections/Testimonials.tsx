@@ -79,7 +79,7 @@ const thirdColumn = testimonials.slice(6, 9);
 const TestimonialsColumn = (props: {className?: string; testimonials:typeof testimonials}) => (
   <div 
     className={twMerge(
-      "flex flex-col gap-6 mt-10 [mask-image:linear-gradient(to_bottom,transparent,black_25%,black_75%,transparent)]", 
+      "flex flex-col gap-6 mt-10", 
       props.className
     )}
   >
@@ -112,7 +112,7 @@ export const Testimonials = () => {
         <h2 className="section-title mt-5">What our users say</h2>
         <p className="section-description mt-5">From intuitive design to powerful features, our app has become an essential tool for users around the world.</p>
         </div>
-        <div className="flex justify-center gap-6">
+        <div className="flex justify-center gap-6 [mask-image:linear-gradient(to_bottom,transparent,black_25%,black_75%,transparent)]">
         <TestimonialsColumn testimonials={firstColumn} />
         <TestimonialsColumn testimonials={secondColumn} className="hidden md:flex"/>
         <TestimonialsColumn testimonials={thirdColumn} className="hidden lg:flex"/>
