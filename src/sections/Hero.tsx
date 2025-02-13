@@ -67,7 +67,7 @@ export const Hero = () => {
             className="hidden lg:block absolute top-[524px] left-[448px] rotate-[30deg]" 
             style={{
               rotate: '30',
-              translateY: translateY
+              translateY: translateY,
             }}
           />
         </div>
