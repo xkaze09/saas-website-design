@@ -1,3 +1,6 @@
+import ArrowRight from '@/assets/arrow-right.svg';
+
+
 export const CallToAction = () => {
   return (
   <section className="bg-gradient-to-b from-white to-{#D2DCFF] py-24">
@@ -9,7 +12,10 @@ export const CallToAction = () => {
       </p>
       <div className="flex gap-2 mt-10 justify-center">
         <button className="btn btn-primary">Get for free</button>
-        <button className="btn btn-text">Learn more</button>
+        <button className="btn btn-text gap-1">
+          <span>Learn more</span>
+          <ArrowRight className="h-5 w-5"/>
+        </button>
       </div>
     </div>
   </section>
