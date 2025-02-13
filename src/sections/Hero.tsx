@@ -37,7 +37,8 @@ export const Hero = () => {
             transition={{
               repeat: Infinity,
               repeatType: 'mirror',
-              duration: 10,
+              duration: 5,
+              ease: "easeInOut",
             }}
           />
           <Image 
