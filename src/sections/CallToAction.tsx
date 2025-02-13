@@ -15,7 +15,7 @@ export const CallToAction = () => {
           progress and motivate your efforts.
         </p>
         <Image src={starImage} alt="Star Image" width={360} className="absolute -left-[350px] -top-[137px]"/>
-        <Image src={springImage} alt="Spring Image" width={360} className="absolute -right-[331px] -top-[137px]"/>
+        <Image src={springImage} alt="Spring Image" width={360} className="absolute -right-[331px] -top-[19px]"/>
       </div>
       <div className="flex gap-2 mt-10 justify-center">
         <button className="btn btn-primary">Get for free</button>
