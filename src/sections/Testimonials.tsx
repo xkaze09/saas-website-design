@@ -1,3 +1,5 @@
+"use client";
+
 import avatar1 from "@/assets/avatar-1.png";
 import avatar2 from "@/assets/avatar-2.png";
 import avatar3 from "@/assets/avatar-3.png";
@@ -9,6 +11,9 @@ import avatar8 from "@/assets/avatar-8.png";
 import avatar9 from "@/assets/avatar-9.png";
 import { twMerge } from "tailwind-merge";
 import Image from "next/image";
+import { motion } from "framer-motion";
+import React from "react";
+
 
 const testimonials = [
   {
@@ -78,7 +83,9 @@ const TestimonialsColumn = (props: {className?: string; testimonials:typeof test
       props.className
     )}
   >
-  {props.testimonials.map(({text, imageSrc, name, username}, index) => (
+  {[...new Array(2)].fill(0).map((_, index) => (
+    <React.Fragment key={index}>
+        {props.testimonials.map(({text, imageSrc, name, username}, index) => (
     <div className="card" key={index}>
       <div>{text}</div>
       <div className="flex items-center gap-2 mt-5">
@@ -89,6 +96,8 @@ const TestimonialsColumn = (props: {className?: string; testimonials:typeof test
         </div>
       </div>
     </div>
+  ))}
+    </React.Fragment>
   ))}
 </div>
 )
