@@ -11,7 +11,9 @@ import SocialYouTube from '@/assets/social-youtube.svg';
 export const Footer = () => {
   return <footer className='bg-black text-[#BCBCBC] text-sm py-10 text-center'>
     <div className="container">
-      <Image src={logo} alt="SaaS Logo" height={40} />
+      <div className="inline-flex relative">
+        <Image src={logo} alt="SaaS Logo" height={40} />
+      </div>
       <nav>
           <a href="#">About</a>
           <a href="#">Features</a>
