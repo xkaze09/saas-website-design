@@ -117,6 +117,6 @@ This project is licensed under the MIT License. See the `LICENSE` file for detai
 
 ## Acknowledgments
 
-Inspired by modern SaaS design trends.
+Inspired by [modern SaaS design trends](https://youtu.be/7hi5zwO75yc?si=rrS49to2V2rUPJ39).
 
-Built with ❤️ by xkaze09.
+Built with ❤️ by xkaze09 with YouTube, ChatGPT, Google, Stack Documentation.
